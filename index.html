@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mousumi Khatun - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="portfolio-wrapper">
+    <header>
+      <div class="logo">
+        <h2>Mousumi Khatun</h2>
+        <p>Web Developer</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="home-section">
+        <h3 class="section-title-home">Home</h3>
+        <div class="home-content">
+          
+          <img src="profile.jpg" alt="Mousumi Khatun" class="profile-img">
+          <div class="home-text">
+            <h1>Hello, I am <span>Mousumi Khatun</span>.</h1>
+            <p>I am a Web Developer.</p>
+            <a href="#contact" class="btn">Contact Me</a>
+          </div>
+        </div>
+      </section>
+       
+      <section id="about" class="about-section">
+        <h3 class="title-about">👤 About Me</h3>
+        <p>I love to create simple and useful websites. I am learning HTML, CSS, JavaScript, and React. My goal is to become a professional Full-Stack Web Developer.</p>
+      </section>
+      <section id="skills" class="skills-section">
+        <h3 class="title-skills">★ Skills</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </section>
+
+      <section id="education" class="education-section">
+        <h3 class="title-education">🎓 Education</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Degree</th>
+              <th>Institution</th>
+              <th>Year</th>
+              <th>Result</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>BSc in CSE</td>
+              <td>Northern University of Business and Technology, Khulna (NUBTK)</td>
+              <td>Running</td>
+              <td>Studying</td>
+            </tr>
+            <tr>
+              <td>HSC</td>
+              <td>KMH College,Kotchandpur</td>
+              <td>2021</td>
+              <td>5.00</td>
+            </tr>
+            <tr>
+              <td>SSC</td>
+              <td>Khalishpur High  School</td>
+              <td>2019</td>
+              <td>4.89</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      
+      <section id="contact" class="contact-section">
+        <h3 class="title-contact">✉️ Contact Me</h3>
+        <form action="#">
+          <div class="form-row">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message:</label>
+            <textarea id="message" rows="3" placeholder="Write your message..."></textarea>
+          </div>
+
+          <div class="form-row">
+            <label>Gender:</label>
+            <div class="options-group">
+              <label><input type="radio" name="gender" value="male"> Male</label>
+              <label><input type="radio" name="gender" value="female"> Female</label>
+              <label><input type="radio" name="gender" value="other"> Other</label>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label>Skills:</label>
+            <div class="options-group">
+              <label><input type="checkbox"> HTML</label>
+              <label><input type="checkbox"> CSS</label>
+              <label><input type="checkbox"> JavaScript</label>
+              <label><input type="checkbox"> React</label>
+            </div>
+          </div>
+
+          <button type="submit" class="btn submit-btn">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    
+    <footer>
+      <p>&copy; 2026 Mousumi Khatun. All rights reserved.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
